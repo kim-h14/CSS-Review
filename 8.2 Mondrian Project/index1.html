@@ -15,17 +15,38 @@
     }
 
     .container {
-      height: 524px;
-      width: 706px;
+      height: 496px;
+      width: 624px;
       display: grid;
       background-color: #000;
-      grid-template-columns: 130px 280px 230px 30px;
-      grid-template-rows: 45px 130px 130px 65px;
-      gap:12px;
+      grid-template-columns: 100px 450px 50px;
+      grid-template-rows: 150px 200px 122px;
+      gap: 12px;
     }
 
     .item {
       background-color: #F0F1EC;
+    }
+
+    .white1 {
+      border-bottom: 15px solid #000;
+    }
+    .red {
+      background-color: #E72F24;
+      grid-area: 1/2/3/4;
+    }
+
+    .blue {
+      background-color: #004592;
+    }
+
+    .white4 {
+      grid-area: -1;
+    }
+    .yellow {
+      background-color: yellow;
+      grid-row: span 1;
+      border-top: 15px solid black;
     }
 
   </style>
@@ -34,40 +55,18 @@
   <div class="container">
 
     <div class="item white1"></div>
+
+    <div class="item red"></div>
+
     <div class="item white2"></div>
 
-    <div class="item yellow1"></div>
+    <div class="item blue"></div>
 
     <div class="item white3"></div>
 
     <div class="item white4"></div>
 
-    <div class="item red1"></div>
-
-    <div class="item yellow2"></div>
-
-    <div class="item white5"></div>
-    <div class="item white6"></div>
-    <div class="item white7"></div>
-
-    <div class="item black1"></div>
-
-    <div class="item white8"></div>
-    <div class="item white9"></div>
-
-    <div class="item yellow3"></div>
-
-    <div class="item white10"></div>
-    <div class="item white11"></div>
-
-    <div class="item black2"></div>
-
-    <div class="item blue"></div>
-
-    <div class="item red2"></div>
-
-    <div class="item white12"></div>
-
+    <div class="item yellow"></div>
 
   </div>
 </body>
